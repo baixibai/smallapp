@@ -1,0 +1,26 @@
+<!--pages/invitation/index.wxml-->
+<view class="container" bindtouchstart="touchStart" bindtouchmove="touchMove" bindtouchend="touchEnd" >
+  <view class="savethedate">
+    <image src="/images/save_the_date_pu.gif" width="100%"/>
+  </view>
+  <view class="name">
+    <span class="fl">{{mainInfo.he}}</span>
+    <span class="fr">{{mainInfo.she}}</span>  
+  </view>
+  <view class="diamond">
+    <image src="/images/diamond-divider.png" width="100%"/>
+  </view>
+  <view class="date">
+    <view>{{mainInfo.date}}</view>
+    <view>农历 {{mainInfo.lunar}}</view>
+    <view>举办婚礼</view>
+    <view>期盼您的到来</view>
+    <view>与我们一起见证最幸福的时刻</view>
+  </view>
+  <view class='detail'>
+    <view class="s_icon"><image src="/images/hotel.png"/></view>
+    <view class="address">席设:{{mainInfo.hotel}}</view>
+    <view class="s_icon"><image src="/images/address.png"/></view>
+    <view class="address">地址:{{mainInfo.address}}</view>
+  </view>
+</view>

@@ -1,0 +1,42 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/mine/mine",
+    "pages/classify/classify",
+    "pages/index/Share/ShareHotMoney",
+    "pages/index/Share/share",
+    "pages/index/mRecord/myRecord"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#e73b58",
+    "navigationBarTitleText": "节日福利社-语音口令",
+    "navigationBarTextStyle": "#fff",
+    "enablePullDownRefresh": "true"
+  },
+  "tabBar": {
+    "backgroundColor": "#fff",
+    "selectedColor": "#fe2f5b",
+    "list": [
+      {
+        "iconPath": "",
+        "selectedIconPath": "",
+        "pagePath": "pages/index/index",
+        "text": "主页"
+      },
+      {
+        "iconPath": "",
+        "selectedIconPath": "",
+        "pagePath": "pages/classify/classify",
+        "text": "分类"
+      },
+      {
+        "iconPath": "",
+        "selectedIconPath": "",
+        "pagePath": "pages/mine/mine",
+        "text": "我的"
+      }
+    ]
+  }
+}

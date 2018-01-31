@@ -1,0 +1,19 @@
+/**app.wxss**/
+.container {
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-sizing: border-box;
+    font-weight: 300
+}
+
+page {
+    background-color: #fff;
+}
+.fl {
+  float: left;
+}
+.fr {
+  float: right;
+}

@@ -1,0 +1,91 @@
+/* pages/mine/mine.wxss */
+Page{
+  background: #f3f5fa;
+}
+.mine_header{
+  width:680rpx;
+  height:346rpx; 
+  padding:0 35rpx;
+}
+.header_Box{
+  width:160rpx;
+  height:222rpx;
+  padding-top:28rpx;
+}
+.header_center{
+  margin-left:20rpx;
+  width:344rpx;
+  height:222rpx;
+  color:#fff;
+
+}
+.header_name{
+  margin-top:55rpx;
+  height:70rpx;
+  line-height: 70rpx;
+  font-size:32rpx;
+
+}
+.header_yue{
+  height:70rpx;
+  line-height: 70rpx;
+  font-size:26rpx;
+}
+.header_right{
+  width:130rpx;
+  height:222rpx;
+}
+.hotMoney_tu{
+  width:110rpx;
+  margin-left:10rpx;
+  margin-top:32rpx;
+}
+.header-right_tixian{
+  color:#fff;
+  text-align: center;
+  line-height: 60rpx;
+}
+.betterPlay{
+  width:750rpx;
+  height:55rpx;
+  text-align: center;
+  line-height: 55rpx;
+  font-size:30rpx;
+  font-weight:bold;
+  background: #fff;
+}
+.mine_hotStyle{
+  width:750rpx;
+  background: #fff;
+  border-bottom:10rpx solid #f3f5fa;
+}
+.mine-hotStyle_con{
+  width:700rpx;
+  height:175rpx;
+  padding:25rpx;
+}
+.mine-hotStyle_Box{
+  width:175rpx;
+  height:175rpx;
+  text-align: center;
+}
+.mine_style_tu{
+  width:117rpx;
+  display: block;
+  margin:0 auto;
+}
+.letu{
+  line-height:58rpx;
+  height:58rpx;
+}
+.mine-hotStyle_con_other{
+  width:700rpx;
+  height:117rpx;
+  padding:25rpx;
+}
+.jieshuo{
+  width:520rpx;
+  line-height:117rpx;
+  height:117rpx;
+  font-size:30rpx;
+}
